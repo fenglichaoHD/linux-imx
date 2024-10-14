@@ -1,0 +1,33 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright 2019 NXP
+ */
+
+#include "imx8mp-debix.dts"
+#include "imx8mp-debix-common-m7.dtsi"
+
+/ {
+	model = "Debix MX8M-PLUS M7 on debix model A";
+};
+
+/*
+ * ATTENTION: M7 may use IPs like below
+ * ECSPI1, I2C3, UART3, PWM3, SDMA1, FLEXCAN1
+ */
+
+&uart3 {
+	status = "disabled";
+};
+
+&i2c3 {
+	status = "disabled";
+};
+
+&ecspi1 {
+	status = "disabled";
+};
+
+
+&flexcan1 {
+	status = "disabled";
+};
