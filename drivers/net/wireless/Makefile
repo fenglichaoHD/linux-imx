@@ -22,4 +22,6 @@ obj-$(CONFIG_WLAN_VENDOR_ST) += st/
 obj-$(CONFIG_WLAN_VENDOR_TI) += ti/
 obj-$(CONFIG_WLAN_VENDOR_ZYDAS) += zydas/
 
+obj-$(CONFIG_WLAN_VENDOR_AICSEMI) += aicsemi/
+
 obj-$(CONFIG_WLAN) += virtual/
